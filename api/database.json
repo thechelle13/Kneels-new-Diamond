@@ -119,6 +119,93 @@
       "sizes": 1,
       "orders": 0,
       "id": 7
+    },
+    {
+      "metals": 1,
+      "styles": 1,
+      "sizes": 1,
+      "orders": 0,
+      "id": 8
+    },
+    {
+      "metals": 1,
+      "styles": 1,
+      "sizes": 1,
+      "orders": 0,
+      "id": 9
+    },
+    {
+      "metals": 1,
+      "styles": 1,
+      "sizes": 4,
+      "orders": 0,
+      "id": 10
+    },
+    {
+      "metals": 1,
+      "styles": 2,
+      "sizes": 1,
+      "orders": 0,
+      "id": 11
+    },
+    {
+      "metals": 5,
+      "styles": 3,
+      "sizes": 5,
+      "orders": 0,
+      "id": 12
+    },
+    {
+      "metals": 1,
+      "styles": 3,
+      "sizes": 2,
+      "orders": 0,
+      "id": 13
+    },
+    {
+      "metals": 1,
+      "styles": 2,
+      "sizes": 4,
+      "orders": 0,
+      "id": 14
+    },
+    {
+      "metals": 1,
+      "styles": 3,
+      "sizes": 4,
+      "orders": 0,
+      "id": 15
+    },
+    {
+      "metals": 5,
+      "styles": 3,
+      "sizes": 4,
+      "orders": 0,
+      "id": 16
+    },
+    {
+      "metals": 1,
+      "sizes": 3,
+      "styles": 2,
+      "orders": 0,
+      "id": 17
+    },
+    {
+      "metals": 1,
+      "sizes": 1,
+      "styles": 1,
+      "orders": 0,
+      "id": 18
+    },
+    {
+      "metalId": 0,
+      "sizeId": 0,
+      "styleId": 0,
+      "orderId": 0,
+      "metals": 1,
+      "sizes": 4,
+      "styles": 1,
+      "id": 19
     }
   ]
 }

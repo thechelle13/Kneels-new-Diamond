@@ -1,7 +1,7 @@
 /* You need to create the rest of styles for the layout shown */
 
 .options {
-        flex-basis: 24%;
+    flex-basis: 24%;
     margin: 0 2rem;
     border: 1px dashed dodgerblue;
     padding: 1rem;
@@ -15,4 +15,27 @@
     flex-direction: row;
     justify-content: space-evenly;
 
+}
+
+.title {
+    text-align: center;
+
+}
+
+.orderButton {
+    text-align: center;
+    margin: 2rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: dodgerblue;
+    color: black;
+    font-size: 1rem;
+}
+
+.customOrders {
+    text-align: center;
+    margin: 1rem 0 2rem 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    color: Black;
+    font-size: 1rem;
 }

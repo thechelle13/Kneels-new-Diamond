@@ -32,7 +32,7 @@ const render = async () => {
                 ${styleOptionsHTML}
             </section>
         </article>
-        <article class="order">
+        <article class="orderButton">
                ${newOrdersHTML}
         </article>
 

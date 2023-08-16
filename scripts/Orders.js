@@ -1,3 +1,7 @@
+import { setMetalId, setSizeId, setStyleId } from "./TransientState.js"
+
+
+
 export const OrderDetailsList = async () => {
     // Get the submissions from your API
     const response = await fetch ("http://localhost:8088/orders")
@@ -6,17 +10,28 @@ export const OrderDetailsList = async () => {
     let orderHTML = ""
     
     for (const order of orders) {
-    
+        
+        const metalPrice = order.metal && orders.metal.price ? parseFloat(order.metal.price) : 0
+       
+        const sizePrice = order.size && order.size.price ? parseFloat(order.size.price) : 0
+        const stylePrice = order.style && order.style.price ? parseFloat(order.style.price) : 0
+
+        const orderPrice = metalPrice + sizePrice + stylePrice
+
+        const costString = orderPrice.toLocaleString("en-US", {
+            style: "currency",
+            currency: "USD"
+        })
+
         orderHTML += `<section class="order">
             <div> Order Details:</div>
-            
-        <div> ${order.metal}
+            <div>Order #${order.id} cost ${costString}</div>
+        <div> Metal Choice: #${order.metals}
         </div>
-        <div>  ${order.style}
+        <div> Size Choice: #${order.sizes}
         </div>
-        <div>  ${order.size}
+        <div> Style Choice: #${order.styles}
         </div>
-
         </section>
         `
     }
