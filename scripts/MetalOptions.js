@@ -29,7 +29,7 @@ export const MetalOptions = async () => {
 // export const MetalOptions = async () => {
 //     const response = await fetch("http://localhost:8088/metals")
 //     const metals = await response.json()
-//     let metalOptionsHTML = "<h2>Metals</h2>"
+//     let metalOptionsHTML = "<h2></h2>"
 //     const divStringArray = metals.map(
 //         (metal) => {
 //           return `<div>
